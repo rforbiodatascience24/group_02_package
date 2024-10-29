@@ -1,0 +1,32 @@
+Package: Group02.CentralDogma
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Authors@R:
+  c(person(given = "Hans Christian",
+           family = "Henriksen",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "s224987@dtu.dk"), 
+    person(given = "Mia Thao",
+           family = "Enné",
+           role = "aut",
+           email = "s225029@dtu.dk"),
+    person(given = "Lukas Moody",
+           family = "Sebbelov",
+           role = "aut",
+           email = "s225071@dtu.dk"),
+    person(given = "Fabrice",
+           family = "Fongwa",
+           role = "aut",
+           email = "s240038@dtu.dk"))
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
