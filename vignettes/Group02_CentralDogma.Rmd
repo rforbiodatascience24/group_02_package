@@ -28,26 +28,26 @@ R_DNA_sequence(30)
 ### Function 2: 
 Translates a given DNA-sequence into RNA.
 ```{r}
-transcribe_dna_to_rna("TCGTAAACTTAACAAATGCTTACCCAGTTT")
+transcribe_dna_to_rna("GAGCTACGCCAGAGAACTGTCCACACACAT")
 ```
 
 ### Function 3: 
 Splits a nucleotide base sequence into codons.
 ```{r}
-sequence_split("UCGUAAACUUAACAAAUGCUUACCCAGUUU")
+sequence_split("GAGCUACGCCAGAGAACUGUCCACACACAU")
 ```
 
 ### Function 4: 
 Strings together codons into an amino acid sequence.
 ```{r}
-a_acid_sequence(c("UCG","UAA","ACU","UAA","CAA","AUG","CUU","ACC","CAG","UUU"))
+a_acid_sequence(c("GAG", "CUA", "CGC", "CAG", "AGA", "ACU", "GUC", "CAC", "ACA", "CAU"))
 ```
 
-### Function 5: 
+###Function 5: 
 Returns a ggplot column graph based on the amount of each amino acid type.
 This one has two dependencise, being ggplot and stringr.
 ```{r}
-plot_amino_acid_counts("S_T_QMLTQF")
+plot_amino_acid_counts("ELRQRTVHTH")
 ```
 ## Possible additions to the package
 A good addition to the package would be a logoplot for the sequences.
