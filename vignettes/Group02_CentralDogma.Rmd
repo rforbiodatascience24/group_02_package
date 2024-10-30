@@ -1,7 +1,4 @@
 ---
-output: github_document
----
----
 title: "Group02_CentralDogma"
 output: rmarkdown::pdf_document
 vignette: >
@@ -52,3 +49,13 @@ This one has two dependencise, being ggplot and stringr.
 ```{r}
 plot_amino_acid_counts("S_T_QMLTQF")
 ```
+## Possible additions to the package
+A good addition to the package would be a logoplot for the sequences.
+
+## Furthermore
+It is a good idea to limit the amount of dependencies a package have, because it can have consequences in the long run if there happens any updates or the scripts are leaft alone. Sometimes it is needed if the code is very complicated, but if its possible one should make once own scripts.
+
+### Differences between importing a package and utilizing one
+@importFrom package function: Adds a dependency to the package, and is for frequent use making the function accessible without prefixing.
+
+package::function(): Is for explicit, occational use without importing the funciton.
