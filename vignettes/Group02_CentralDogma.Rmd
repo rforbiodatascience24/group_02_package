@@ -43,12 +43,13 @@ Strings together codons into an amino acid sequence.
 a_acid_sequence(c("GAG", "CUA", "CGC", "CAG", "AGA", "ACU", "GUC", "CAC", "ACA", "CAU"))
 ```
 
-###Function 5: 
+### Function 5: 
 Returns a ggplot column graph based on the amount of each amino acid type.
 This one has two dependencise, being ggplot and stringr.
 ```{r}
 plot_amino_acid_counts("ELRQRTVHTH")
 ```
+
 ## Possible additions to the package
 A good addition to the package would be a logoplot for the sequences.
 
