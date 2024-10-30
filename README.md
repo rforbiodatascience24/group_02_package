@@ -13,7 +13,7 @@ Creates a random DNA-sequence on a given lenght.
 
 ``` r
 R_DNA_sequence(30)
-#> [1] "CCACTAAGCTTGGGAACAAGAGGCGGTGTC"
+#> [1] "GGAAACCAATACTTACCACGGTCGCCGGAT"
 ```
 
 ### Function 2:
@@ -43,17 +43,20 @@ a_acid_sequence(c("GAG", "CUA", "CGC", "CAG", "AGA", "ACU", "GUC", "CAC", "ACA",
 #> [1] "ELRQRTVHTH"
 ```
 
-\###Function 5: Returns a ggplot column graph based on the amount of
-each amino acid type. This one has two dependencise, being ggplot and
-stringr.
+### Function 5:
+
+Returns a ggplot column graph based on the amount of each amino acid
+type. This one has two dependencise, being ggplot and stringr.
 
 ``` r
 plot_amino_acid_counts("ELRQRTVHTH")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-6-1.svg)<!-- --> \## Possible
-additions to the package A good addition to the package would be a
-logoplot for the sequences.
+![](README_files/figure-gfm/unnamed-chunk-6-1.svg)<!-- -->
+
+## Possible additions to the package
+
+A good addition to the package would be a logoplot for the sequences.
 
 ## Furthermore
 
